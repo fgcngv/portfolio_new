@@ -76,7 +76,7 @@ export default function Projects() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.3 }}
               >
-                {project.technologies.map((tech, techIndex) => (
+                {project.technologies.map((tech:any, techIndex:any) => (
                   <motion.span
                     key={techIndex}
                     className="px-3 py-1 bg-blue-800/50 text-gray-300 rounded-full text-sm"
