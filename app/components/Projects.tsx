@@ -60,7 +60,7 @@ export default function Projects() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.3 }}
               >
-                {project.technologies.map((tech) => (
+                {project.technologies.map((tech:any) => (
                   <motion.span
                     key={tech}
                     className="px-3 py-1 bg-blue-800  rounded-full text-sm text-gray-400"
